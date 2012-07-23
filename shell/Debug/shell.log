@@ -1,13 +1,12 @@
-﻿Build started 23.07.2012 19:17:41.
-     1>Project "D:\home\SHELL\shell\shell\shell.vcxproj" on node 2 (Build target(s)).
+﻿Build started 23.07.2012 20:05:58.
+     1>Project "D:\home\SHELL\Shell\shell\shell.vcxproj" on node 2 (Build target(s)).
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /MP /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt sWindow.cpp
          sWindow.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\home\SHELL\shell\Debug\shell.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\home\SHELL\shell\Debug\shell.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\home\SHELL\shell\Debug\shell.lib" /MACHINE:X86 Debug\shell.obj
-         Debug\sTab.obj
-         Debug\sWindow.obj
-         shell.vcxproj -> D:\home\SHELL\shell\Debug\shell.exe
-     1>Done Building Project "D:\home\SHELL\shell\shell\shell.vcxproj" (Build target(s)).
+     1>d:\home\shell\shell\shell\swindow.cpp(71): error C2065: 'lParam' : undeclared identifier
+     1>d:\home\shell\shell\shell\swindow.cpp(71): error C3861: 'GET_X_LPARAM': identifier not found
+     1>d:\home\shell\shell\shell\swindow.cpp(71): error C3861: 'GET_Y_LPARAM': identifier not found
+     1>Done Building Project "D:\home\SHELL\Shell\shell\shell.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.10
+Time Elapsed 00:00:00.80

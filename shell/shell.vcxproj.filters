@@ -24,12 +24,18 @@
     <ClCompile Include="sWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sTabControll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sTab.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sTabControll.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

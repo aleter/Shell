@@ -13,10 +13,12 @@
   <ItemGroup>
     <ClCompile Include="shell.cpp" />
     <ClCompile Include="sTab.cpp" />
+    <ClCompile Include="sTabControll.cpp" />
     <ClCompile Include="sWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sTab.h" />
+    <ClInclude Include="sTabControll.h" />
     <ClInclude Include="sWindow.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
